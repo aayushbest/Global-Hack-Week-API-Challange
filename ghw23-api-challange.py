@@ -11,5 +11,4 @@ if __name__ == '__main__':
     zipcode = input('Enter your pin code/zip code:')
     countrycode = input('Enter your country code:')
     response = get_your_location(zipcode,countrycode)
-    print(type(response))
-    print(structured_response.name)
+    print(response)
